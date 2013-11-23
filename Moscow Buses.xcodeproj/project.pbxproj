@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D185D65B1841689700D2FB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D65A1841689700D2FB05 /* Foundation.framework */; };
+		D185D65D1841689700D2FB05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D65C1841689700D2FB05 /* CoreGraphics.framework */; };
+		D185D65F1841689700D2FB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D65E1841689700D2FB05 /* UIKit.framework */; };
+		D185D6651841689700D2FB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D185D6631841689700D2FB05 /* InfoPlist.strings */; };
+		D185D6671841689700D2FB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D185D6661841689700D2FB05 /* main.m */; };
+		D185D66B1841689700D2FB05 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D185D66A1841689700D2FB05 /* MBAppDelegate.m */; };
+		D185D66E1841689700D2FB05 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D185D66C1841689700D2FB05 /* Main_iPhone.storyboard */; };
+		D185D6711841689700D2FB05 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D185D66F1841689700D2FB05 /* Main_iPad.storyboard */; };
+		D185D6741841689700D2FB05 /* MBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D185D6731841689700D2FB05 /* MBFirstViewController.m */; };
+		D185D6771841689700D2FB05 /* MBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D185D6761841689700D2FB05 /* MBSecondViewController.m */; };
+		D185D6791841689700D2FB05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D185D6781841689700D2FB05 /* Images.xcassets */; };
+		D185D6801841689700D2FB05 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D67F1841689700D2FB05 /* XCTest.framework */; };
+		D185D6811841689700D2FB05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D65A1841689700D2FB05 /* Foundation.framework */; };
+		D185D6821841689700D2FB05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D65E1841689700D2FB05 /* UIKit.framework */; };
+		D185D68A1841689700D2FB05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D185D6881841689700D2FB05 /* InfoPlist.strings */; };
+		D185D68C1841689700D2FB05 /* Moscow_BusesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D185D68B1841689700D2FB05 /* Moscow_BusesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D185D6831841689700D2FB05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D185D64F1841689700D2FB05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D185D6561841689700D2FB05;
+			remoteInfo = "Moscow Buses";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D185D6571841689700D2FB05 /* Moscow Buses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moscow Buses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D185D65A1841689700D2FB05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D185D65C1841689700D2FB05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D185D65E1841689700D2FB05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D185D6621841689700D2FB05 /* Moscow Buses-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moscow Buses-Info.plist"; sourceTree = "<group>"; };
+		D185D6641841689700D2FB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D185D6661841689700D2FB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D185D6681841689700D2FB05 /* Moscow Buses-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moscow Buses-Prefix.pch"; sourceTree = "<group>"; };
+		D185D6691841689700D2FB05 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
+		D185D66A1841689700D2FB05 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
+		D185D66D1841689700D2FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D185D6701841689700D2FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D185D6721841689700D2FB05 /* MBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFirstViewController.h; sourceTree = "<group>"; };
+		D185D6731841689700D2FB05 /* MBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFirstViewController.m; sourceTree = "<group>"; };
+		D185D6751841689700D2FB05 /* MBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBSecondViewController.h; sourceTree = "<group>"; };
+		D185D6761841689700D2FB05 /* MBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBSecondViewController.m; sourceTree = "<group>"; };
+		D185D6781841689700D2FB05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D185D67E1841689700D2FB05 /* Moscow BusesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moscow BusesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D185D67F1841689700D2FB05 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D185D6871841689700D2FB05 /* Moscow BusesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moscow BusesTests-Info.plist"; sourceTree = "<group>"; };
+		D185D6891841689700D2FB05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D185D68B1841689700D2FB05 /* Moscow_BusesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moscow_BusesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D185D6541841689700D2FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185D65D1841689700D2FB05 /* CoreGraphics.framework in Frameworks */,
+				D185D65F1841689700D2FB05 /* UIKit.framework in Frameworks */,
+				D185D65B1841689700D2FB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D185D67B1841689700D2FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185D6801841689700D2FB05 /* XCTest.framework in Frameworks */,
+				D185D6821841689700D2FB05 /* UIKit.framework in Frameworks */,
+				D185D6811841689700D2FB05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D185D64E1841689700D2FB05 = {
+			isa = PBXGroup;
+			children = (
+				D185D6601841689700D2FB05 /* Moscow Buses */,
+				D185D6851841689700D2FB05 /* Moscow BusesTests */,
+				D185D6591841689700D2FB05 /* Frameworks */,
+				D185D6581841689700D2FB05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D185D6581841689700D2FB05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D185D6571841689700D2FB05 /* Moscow Buses.app */,
+				D185D67E1841689700D2FB05 /* Moscow BusesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D185D6591841689700D2FB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D185D65A1841689700D2FB05 /* Foundation.framework */,
+				D185D65C1841689700D2FB05 /* CoreGraphics.framework */,
+				D185D65E1841689700D2FB05 /* UIKit.framework */,
+				D185D67F1841689700D2FB05 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D185D6601841689700D2FB05 /* Moscow Buses */ = {
+			isa = PBXGroup;
+			children = (
+				D185D6691841689700D2FB05 /* MBAppDelegate.h */,
+				D185D66A1841689700D2FB05 /* MBAppDelegate.m */,
+				D185D66C1841689700D2FB05 /* Main_iPhone.storyboard */,
+				D185D66F1841689700D2FB05 /* Main_iPad.storyboard */,
+				D185D6721841689700D2FB05 /* MBFirstViewController.h */,
+				D185D6731841689700D2FB05 /* MBFirstViewController.m */,
+				D185D6751841689700D2FB05 /* MBSecondViewController.h */,
+				D185D6761841689700D2FB05 /* MBSecondViewController.m */,
+				D185D6781841689700D2FB05 /* Images.xcassets */,
+				D185D6611841689700D2FB05 /* Supporting Files */,
+			);
+			path = "Moscow Buses";
+			sourceTree = "<group>";
+		};
+		D185D6611841689700D2FB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D185D6621841689700D2FB05 /* Moscow Buses-Info.plist */,
+				D185D6631841689700D2FB05 /* InfoPlist.strings */,
+				D185D6661841689700D2FB05 /* main.m */,
+				D185D6681841689700D2FB05 /* Moscow Buses-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D185D6851841689700D2FB05 /* Moscow BusesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D185D68B1841689700D2FB05 /* Moscow_BusesTests.m */,
+				D185D6861841689700D2FB05 /* Supporting Files */,
+			);
+			path = "Moscow BusesTests";
+			sourceTree = "<group>";
+		};
+		D185D6861841689700D2FB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D185D6871841689700D2FB05 /* Moscow BusesTests-Info.plist */,
+				D185D6881841689700D2FB05 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D185D6561841689700D2FB05 /* Moscow Buses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D185D68F1841689700D2FB05 /* Build configuration list for PBXNativeTarget "Moscow Buses" */;
+			buildPhases = (
+				D185D6531841689700D2FB05 /* Sources */,
+				D185D6541841689700D2FB05 /* Frameworks */,
+				D185D6551841689700D2FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moscow Buses";
+			productName = "Moscow Buses";
+			productReference = D185D6571841689700D2FB05 /* Moscow Buses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D185D67D1841689700D2FB05 /* Moscow BusesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D185D6921841689700D2FB05 /* Build configuration list for PBXNativeTarget "Moscow BusesTests" */;
+			buildPhases = (
+				D185D67A1841689700D2FB05 /* Sources */,
+				D185D67B1841689700D2FB05 /* Frameworks */,
+				D185D67C1841689700D2FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D185D6841841689700D2FB05 /* PBXTargetDependency */,
+			);
+			name = "Moscow BusesTests";
+			productName = "Moscow BusesTests";
+			productReference = D185D67E1841689700D2FB05 /* Moscow BusesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D185D64F1841689700D2FB05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Yuri Karabatov";
+				TargetAttributes = {
+					D185D67D1841689700D2FB05 = {
+						TestTargetID = D185D6561841689700D2FB05;
+					};
+				};
+			};
+			buildConfigurationList = D185D6521841689700D2FB05 /* Build configuration list for PBXProject "Moscow Buses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D185D64E1841689700D2FB05;
+			productRefGroup = D185D6581841689700D2FB05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D185D6561841689700D2FB05 /* Moscow Buses */,
+				D185D67D1841689700D2FB05 /* Moscow BusesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D185D6551841689700D2FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185D6711841689700D2FB05 /* Main_iPad.storyboard in Resources */,
+				D185D6791841689700D2FB05 /* Images.xcassets in Resources */,
+				D185D66E1841689700D2FB05 /* Main_iPhone.storyboard in Resources */,
+				D185D6651841689700D2FB05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D185D67C1841689700D2FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185D68A1841689700D2FB05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D185D6531841689700D2FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185D6741841689700D2FB05 /* MBFirstViewController.m in Sources */,
+				D185D6771841689700D2FB05 /* MBSecondViewController.m in Sources */,
+				D185D6671841689700D2FB05 /* main.m in Sources */,
+				D185D66B1841689700D2FB05 /* MBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D185D67A1841689700D2FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D185D68C1841689700D2FB05 /* Moscow_BusesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D185D6841841689700D2FB05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D185D6561841689700D2FB05 /* Moscow Buses */;
+			targetProxy = D185D6831841689700D2FB05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D185D6631841689700D2FB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D185D6641841689700D2FB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D185D66C1841689700D2FB05 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D185D66D1841689700D2FB05 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D185D66F1841689700D2FB05 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D185D6701841689700D2FB05 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D185D6881841689700D2FB05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D185D6891841689700D2FB05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D185D68D1841689700D2FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D185D68E1841689700D2FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D185D6901841689700D2FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moscow Buses/Moscow Buses-Prefix.pch";
+				INFOPLIST_FILE = "Moscow Buses/Moscow Buses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D185D6911841689700D2FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moscow Buses/Moscow Buses-Prefix.pch";
+				INFOPLIST_FILE = "Moscow Buses/Moscow Buses-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D185D6931841689700D2FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moscow Buses.app/Moscow Buses";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moscow Buses/Moscow Buses-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moscow BusesTests/Moscow BusesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D185D6941841689700D2FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moscow Buses.app/Moscow Buses";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moscow Buses/Moscow Buses-Prefix.pch";
+				INFOPLIST_FILE = "Moscow BusesTests/Moscow BusesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D185D6521841689700D2FB05 /* Build configuration list for PBXProject "Moscow Buses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D185D68D1841689700D2FB05 /* Debug */,
+				D185D68E1841689700D2FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D185D68F1841689700D2FB05 /* Build configuration list for PBXNativeTarget "Moscow Buses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D185D6901841689700D2FB05 /* Debug */,
+				D185D6911841689700D2FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D185D6921841689700D2FB05 /* Build configuration list for PBXNativeTarget "Moscow BusesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D185D6931841689700D2FB05 /* Debug */,
+				D185D6941841689700D2FB05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D185D64F1841689700D2FB05 /* Project object */;
+}
