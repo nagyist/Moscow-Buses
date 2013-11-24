@@ -23,7 +23,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     // Create a GMSCameraPosition that tells the map to display the
-    // coordinate 55.755713,37.617188 at zoom level 6.
+    // coordinate 55.755713,37.617188 at zoom level 9.
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:55.755713
                                                             longitude:37.617188
                                                                  zoom:9];
