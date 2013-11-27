@@ -15,6 +15,8 @@
 
 @implementation MBFirstViewController {
     GMSMapView *mapView_;
+    __weak IBOutlet UIButton *myLocationButton;
+    
 }
 
 - (void)viewDidLoad
@@ -42,6 +44,13 @@
     marker.title = @"Moscow";
     marker.snippet = @"Russia";
     marker.map = mapView_;
+}
+
+- (IBAction)myLocationButtonClicked:(UIButton *)sender {
+    CLLocation *location = mapView_.myLocation;
+    if (location) {
+        [mapView_ animateToCameraPosition:[GMSCameraPosition cameraWithTarget:location.coordinate zoom:12]];
+    }
 }
 
 - (void)didReceiveMemoryWarning
