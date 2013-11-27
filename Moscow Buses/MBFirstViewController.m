@@ -16,6 +16,8 @@
 @implementation MBFirstViewController {
     GMSMapView *mapView_;
     __weak IBOutlet UIButton *myLocationButton;
+    __weak IBOutlet UIButton *plusButton;
+    __weak IBOutlet UIButton *minusButton;
     
 }
 
@@ -51,6 +53,12 @@
     if (location) {
         [mapView_ animateToCameraPosition:[GMSCameraPosition cameraWithTarget:location.coordinate zoom:12]];
     }
+}
+- (IBAction)plusButtonClicked:(UIButton *)sender {
+    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate zoomIn]];
+}
+- (IBAction)minusButtonClicked:(id)sender {
+    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate zoomOut]];
 }
 
 - (void)didReceiveMemoryWarning

@@ -26,12 +26,34 @@
                                     <action selector="myLocationButtonClicked:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="gf0-ND-QoK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UM3-qx-HKz">
+                                <rect key="frame" x="264" y="170" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Plus">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="plusButtonClicked:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="8EW-iH-xt4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Z8-AL-dpx">
+                                <rect key="frame" x="264" y="208" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Minus">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="minusButtonClicked:" destination="CZ4-MO-1fc" eventType="touchUpInside" id="vgj-3W-aWI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Nearest" image="first" id="u1e-5L-l1D"/>
                     <connections>
+                        <outlet property="minusButton" destination="7Z8-AL-dpx" id="ibG-89-c94"/>
                         <outlet property="myLocationButton" destination="Ap7-l2-ICg" id="NFF-zR-xbZ"/>
+                        <outlet property="plusButton" destination="UM3-qx-HKz" id="Jee-b0-3kk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
