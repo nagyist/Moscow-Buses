@@ -14,10 +14,10 @@
 @end
 
 @implementation MBFirstViewController {
-    GMSMapView *mapView_;
-    __weak IBOutlet UIButton *myLocationButton;
-    __weak IBOutlet UIButton *plusButton;
-    __weak IBOutlet UIButton *minusButton;
+//    GMSMapView *mapView_;
+//    __weak IBOutlet UIButton *myLocationButton;
+//    __weak IBOutlet UIButton *plusButton;
+//    __weak IBOutlet UIButton *minusButton;
     
 }
 
@@ -25,6 +25,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    /* Remove Google Maps for now due to MVP Limitations. Might introduce later.
     
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate 55.755713,37.617188 at zoom level 9.
@@ -60,6 +62,9 @@
 - (IBAction)minusButtonClicked:(id)sender {
     [mapView_ animateWithCameraUpdate:[GMSCameraUpdate zoomOut]];
 }
+*/
+    
+} // viewDidLoad
 
 - (void)didReceiveMemoryWarning
 {
