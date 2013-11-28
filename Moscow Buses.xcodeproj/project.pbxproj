@@ -37,6 +37,7 @@
 		D185D6B31841740F00D2FB05 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D6A81841740F00D2FB05 /* OpenGLES.framework */; };
 		D185D6B41841740F00D2FB05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D6A91841740F00D2FB05 /* QuartzCore.framework */; };
 		D185D6B51841740F00D2FB05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D6AA1841740F00D2FB05 /* SystemConfiguration.framework */; };
+		D1EA1E4A1847CE62004C8CF0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1EA1E481847CE62004C8CF0 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		D185D6A81841740F00D2FB05 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D185D6A91841740F00D2FB05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D185D6AA1841740F00D2FB05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D1EA1E491847CE62004C8CF0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				D185D6761841689700D2FB05 /* MBSecondViewController.m */,
 				D185D6781841689700D2FB05 /* Images.xcassets */,
 				D185D6611841689700D2FB05 /* Supporting Files */,
+				D1EA1E4B1847CE69004C8CF0 /* Model */,
 			);
 			path = "Moscow Buses";
 			sourceTree = "<group>";
@@ -219,6 +222,14 @@
 				D185D6881841689700D2FB05 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1EA1E4B1847CE69004C8CF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D1EA1E481847CE62004C8CF0 /* Model.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +343,7 @@
 			files = (
 				D185D6741841689700D2FB05 /* MBFirstViewController.m in Sources */,
 				D185D6771841689700D2FB05 /* MBSecondViewController.m in Sources */,
+				D1EA1E4A1847CE62004C8CF0 /* Model.xcdatamodeld in Sources */,
 				D185D6671841689700D2FB05 /* main.m in Sources */,
 				D185D66B1841689700D2FB05 /* MBAppDelegate.m in Sources */,
 			);
@@ -574,6 +586,7 @@
 				D185D6911841689700D2FB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D185D6921841689700D2FB05 /* Build configuration list for PBXNativeTarget "Moscow BusesTests" */ = {
 			isa = XCConfigurationList;
@@ -582,8 +595,23 @@
 				D185D6941841689700D2FB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D1EA1E481847CE62004C8CF0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D1EA1E491847CE62004C8CF0 /* Model.xcdatamodel */,
+			);
+			currentVersion = D1EA1E491847CE62004C8CF0 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Model/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D185D64F1841689700D2FB05 /* Project object */;
 }
