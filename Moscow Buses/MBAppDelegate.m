@@ -7,7 +7,7 @@
 //
 
 #import "MBAppDelegate.h"
-#import <GoogleMaps/GoogleMaps.h>
+// #import <GoogleMaps/GoogleMaps.h>
 
 @implementation MBAppDelegate
 
@@ -15,8 +15,10 @@
 {
     // Override point for customization after application launch.
     
+    /*
     // Google Maps init with API key
     [GMSServices provideAPIKey:@"AIzaSyBjjuKK6kJ9gY_2ZN6WNLZ15odbsR846K0"];
+    */
     
     return YES;
 }
