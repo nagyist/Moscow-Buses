@@ -37,6 +37,9 @@
 		D185D6B31841740F00D2FB05 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D6A81841740F00D2FB05 /* OpenGLES.framework */; };
 		D185D6B41841740F00D2FB05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D6A91841740F00D2FB05 /* QuartzCore.framework */; };
 		D185D6B51841740F00D2FB05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D185D6AA1841740F00D2FB05 /* SystemConfiguration.framework */; };
+		D1982F50184D0FE100A7A8EF /* Transport.m in Sources */ = {isa = PBXBuildFile; fileRef = D1982F4F184D0FE100A7A8EF /* Transport.m */; };
+		D1982F53184D0FE100A7A8EF /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = D1982F52184D0FE100A7A8EF /* Stop.m */; };
+		D1982F56184D0FE100A7A8EF /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = D1982F55184D0FE100A7A8EF /* Route.m */; };
 		D1EA1E4A1847CE62004C8CF0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1EA1E481847CE62004C8CF0 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +95,12 @@
 		D185D6A81841740F00D2FB05 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		D185D6A91841740F00D2FB05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D185D6AA1841740F00D2FB05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D1982F4E184D0FE100A7A8EF /* Transport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transport.h; path = Model/Transport.h; sourceTree = "<group>"; };
+		D1982F4F184D0FE100A7A8EF /* Transport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Transport.m; path = Model/Transport.m; sourceTree = "<group>"; };
+		D1982F51184D0FE100A7A8EF /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stop.h; path = Model/Stop.h; sourceTree = "<group>"; };
+		D1982F52184D0FE100A7A8EF /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stop.m; path = Model/Stop.m; sourceTree = "<group>"; };
+		D1982F54184D0FE100A7A8EF /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Route.h; path = Model/Route.h; sourceTree = "<group>"; };
+		D1982F55184D0FE100A7A8EF /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Route.m; path = Model/Route.m; sourceTree = "<group>"; };
 		D1EA1E491847CE62004C8CF0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,6 +236,12 @@
 		D1EA1E4B1847CE69004C8CF0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D1982F4E184D0FE100A7A8EF /* Transport.h */,
+				D1982F54184D0FE100A7A8EF /* Route.h */,
+				D1982F55184D0FE100A7A8EF /* Route.m */,
+				D1982F51184D0FE100A7A8EF /* Stop.h */,
+				D1982F52184D0FE100A7A8EF /* Stop.m */,
+				D1982F4F184D0FE100A7A8EF /* Transport.m */,
 				D1EA1E481847CE62004C8CF0 /* Model.xcdatamodeld */,
 			);
 			name = Model;
@@ -342,10 +357,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D185D6741841689700D2FB05 /* MBFirstViewController.m in Sources */,
+				D1982F56184D0FE100A7A8EF /* Route.m in Sources */,
 				D185D6771841689700D2FB05 /* MBSecondViewController.m in Sources */,
 				D1EA1E4A1847CE62004C8CF0 /* Model.xcdatamodeld in Sources */,
+				D1982F50184D0FE100A7A8EF /* Transport.m in Sources */,
 				D185D6671841689700D2FB05 /* main.m in Sources */,
 				D185D66B1841689700D2FB05 /* MBAppDelegate.m in Sources */,
+				D1982F53184D0FE100A7A8EF /* Stop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
