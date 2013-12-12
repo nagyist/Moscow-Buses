@@ -1,18 +1,18 @@
 //
-//  MBSecondViewController.m
+//  MBFavorites.m
 //  Moscow Buses
 //
 //  Created by Yuri Karabatov on 24.11.13.
 //  Copyright (c) 2013 Yuri Karabatov. All rights reserved.
 //
 
-#import "MBSecondViewController.h"
+#import "MBFavorites.h"
 
-@interface MBSecondViewController ()
+@interface MBFavorites ()
 
 @end
 
-@implementation MBSecondViewController
+@implementation MBFavorites
 
 - (void)viewDidLoad
 {

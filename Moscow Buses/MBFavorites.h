@@ -1,5 +1,5 @@
 //
-//  MBFirstViewController.h
+//  MBFavorites.h
 //  Moscow Buses
 //
 //  Created by Yuri Karabatov on 24.11.13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-// #import <GoogleMaps/GoogleMaps.h>
 
-@interface MBFirstViewController : UIViewController // <GMSMapViewDelegate>
+@interface MBFavorites : UIViewController
 
 @end

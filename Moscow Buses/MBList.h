@@ -1,5 +1,5 @@
 //
-//  MBSecondViewController.h
+//  MBList.h
 //  Moscow Buses
 //
 //  Created by Yuri Karabatov on 24.11.13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MBSecondViewController : UIViewController
+@interface MBList : UIViewController
 
 @end
