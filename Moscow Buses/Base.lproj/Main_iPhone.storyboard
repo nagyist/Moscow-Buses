@@ -49,7 +49,7 @@
                             <constraint firstAttribute="bottom" secondItem="aRf-dI-IE6" secondAttribute="bottom" id="yyq-gE-KDo"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Nearest" image="first" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="All routes" image="first" id="u1e-5L-l1D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>
             </objects>
