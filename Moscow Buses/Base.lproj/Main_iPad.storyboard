@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - Nearest-->
+        <!--List View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="MBFirstViewController" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" userLabel="List View Controller" customClass="MBList" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LqV-We-niG"/>
                         <viewControllerLayoutGuide type="bottom" id="aag-RW-Se0"/>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="3042" y="20"/>
         </scene>
-        <!--Second View Controller - Favorites-->
+        <!--Favorites View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="MBSecondViewController" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" userLabel="Favorites View Controller" customClass="MBFavorites" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UCw-lJ-pnh"/>
                         <viewControllerLayoutGuide type="bottom" id="sPR-cA-avr"/>
