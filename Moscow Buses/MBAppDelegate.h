@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Yuri Karabatov. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface MBAppDelegate : UIResponder <UIApplicationDelegate>
 
