@@ -5,7 +5,7 @@
 //  Created by Yuri Karabatov on 24.11.13.
 //  Copyright (c) 2013 Yuri Karabatov. All rights reserved.
 //
-//  Rock - Hard Place :(
+//  Rock - Hard Place (30 days)
 //
 
 @import UIKit;
